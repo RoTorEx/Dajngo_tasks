@@ -43,3 +43,9 @@ class Sales(models.Model):
 14. Получить год рождения самого древнего автора
 15. Найти самое богатое издания по общей стоимости книг
 16. Показать список книг цена которых больше цены продаж за 20 февраля 2002 года
+
+## Description
+
+Enter *pipenv shel* and then *./fill_db* to make migrations, generate random fixtures in json format, load data into database and finally run server.
+
+Also don't forget to create a superuser: *python manage.py createsuperuser*.

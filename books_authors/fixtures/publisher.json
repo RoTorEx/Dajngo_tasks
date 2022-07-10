@@ -1,0 +1,107 @@
+[
+    {
+        "model": "books_authors.Publisher",
+        "pk": 1,
+        "fields": {
+            "name": "Pena PLC"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 2,
+        "fields": {
+            "name": "Powers-Ortega"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 3,
+        "fields": {
+            "name": "Schwartz, Ponce and Stout"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 4,
+        "fields": {
+            "name": "Evans, Collins and Walters"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 5,
+        "fields": {
+            "name": "Lawson-Shaw"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 6,
+        "fields": {
+            "name": "Hahn-Henry"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 7,
+        "fields": {
+            "name": "Brennan PLC"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 8,
+        "fields": {
+            "name": "Williams, Hill and Ross"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 9,
+        "fields": {
+            "name": "Brown-Williams"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 10,
+        "fields": {
+            "name": "Meyer, Kline and Jackson"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 11,
+        "fields": {
+            "name": "Travis-Jones"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 12,
+        "fields": {
+            "name": "Waters LLC"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 13,
+        "fields": {
+            "name": "Cruz PLC"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 14,
+        "fields": {
+            "name": "Snyder, Summers and Gomez"
+        }
+    },
+    {
+        "model": "books_authors.Publisher",
+        "pk": 15,
+        "fields": {
+            "name": "Brown, Lewis and Johnson"
+        }
+    }
+]
