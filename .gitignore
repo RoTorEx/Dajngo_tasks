@@ -1,1 +1,4 @@
 *.lock
+*.sqlite3
+
+**/migrations
