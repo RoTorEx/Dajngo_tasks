@@ -18,7 +18,7 @@ class Command(BaseCommand):
         with open(f"{fixtures_dir}/author.json", "w") as file:
             data_list = []
 
-            for i in range(50):
+            for i in range(20):
                 date = f"{r.randint(1700, 2000)}-{r.randint(1, 12)}-{r.randint(1,28)}"
                 time = f"{r.randint(1,12)}:{r.randint(0,59)}:{r.randint(0,59)}+00:00"
 
@@ -38,7 +38,7 @@ class Command(BaseCommand):
         with open(f"{fixtures_dir}/publisher.json", "w") as file:
             data_list = []
 
-            for i in range(15):
+            for i in range(8):
                 data_dir = {
                     "model": "books_authors.Publisher",
                     "pk": i + 1,
@@ -54,7 +54,7 @@ class Command(BaseCommand):
         with open(f"{fixtures_dir}/books.json", "w") as file:
             data_list = []
 
-            for i in range(300):
+            for i in range(80):
                 date = f"{r.randint(1900, 2020)}-{r.randint(1, 12)}-{r.randint(1,28)}"
                 time = f"{r.randint(1,12)}:{r.randint(0,59)}:{r.randint(0,59)}+00:00"
 
@@ -63,8 +63,8 @@ class Command(BaseCommand):
                     "pk": i + 1,
                     "fields": {
                         "name": " ".join([Faker().word() for i in range(r.randint(1, 5))]).capitalize(),
-                        "authors": [r.randint(1, 50)],
-                        "publisher": r.randint(1, 15),
+                        "authors": [r.randint(1, 20)],
+                        "publisher": r.randint(1, 8),
                         "publish_date": date + " " + time,
                         "price": float(f"{r.triangular(1234):.2f}")
                     }
@@ -77,7 +77,7 @@ class Command(BaseCommand):
         with open(f"{fixtures_dir}/sales.json", "w") as file:
             data_list = []
 
-            for i in range(30):
+            for i in range(15):
                 date = f"{r.randint(2010, 2022)}-{r.randint(1, 12)}-{r.randint(1,28)}"
                 time = f"{r.randint(1,12)}:{r.randint(0,59)}:{r.randint(0,59)}+00:00"
 
