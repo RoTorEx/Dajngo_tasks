@@ -3,400 +3,160 @@
         "model": "books_authors.Author",
         "pk": 1,
         "fields": {
-            "name": "Adam Johnson",
-            "birth_day": "1942-8-12 4:31:8+00:00"
+            "name": "Rachael Mckinney",
+            "birth_day": "1980-5-1 5:24:3+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 2,
         "fields": {
-            "name": "Dana Weber",
-            "birth_day": "1995-2-7 2:40:5+00:00"
+            "name": "Henry Alvarado",
+            "birth_day": "1966-11-21 2:36:4+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 3,
         "fields": {
-            "name": "Mike Barnes",
-            "birth_day": "1772-6-19 1:39:59+00:00"
+            "name": "Rebecca Bush",
+            "birth_day": "1733-2-18 8:30:45+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 4,
         "fields": {
-            "name": "Monica Walker",
-            "birth_day": "1809-4-24 12:15:30+00:00"
+            "name": "Laurie Forbes",
+            "birth_day": "1968-5-24 11:41:28+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 5,
         "fields": {
-            "name": "Amy Newman",
-            "birth_day": "1987-11-12 8:42:2+00:00"
+            "name": "Kathryn Rowe",
+            "birth_day": "1804-7-23 4:31:16+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 6,
         "fields": {
-            "name": "Richard Cox",
-            "birth_day": "1990-9-20 1:8:28+00:00"
+            "name": "Katie Carter",
+            "birth_day": "1890-2-3 2:2:40+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 7,
         "fields": {
-            "name": "Gregory Webb",
-            "birth_day": "1910-8-21 4:45:29+00:00"
+            "name": "Diane Ward",
+            "birth_day": "1827-9-13 5:3:34+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 8,
         "fields": {
-            "name": "Anthony Wilson",
-            "birth_day": "1926-9-15 5:7:25+00:00"
+            "name": "Beth Hall",
+            "birth_day": "1938-6-25 8:47:2+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 9,
         "fields": {
-            "name": "John Torres",
-            "birth_day": "1897-12-7 10:11:18+00:00"
+            "name": "Anita Thomas",
+            "birth_day": "1809-8-8 1:51:29+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 10,
         "fields": {
-            "name": "Ellen Jimenez",
-            "birth_day": "1888-11-8 3:32:37+00:00"
+            "name": "Trevor Hill DVM",
+            "birth_day": "1716-6-26 12:19:35+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 11,
         "fields": {
-            "name": "Judith Miller",
-            "birth_day": "1778-3-3 6:11:47+00:00"
+            "name": "Jose Crawford",
+            "birth_day": "1880-7-23 12:40:17+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 12,
         "fields": {
-            "name": "Dr. Christina Hubbard",
-            "birth_day": "1736-8-16 8:49:33+00:00"
+            "name": "Jordan Gonzales",
+            "birth_day": "1994-8-13 7:12:52+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 13,
         "fields": {
-            "name": "Pamela Robinson",
-            "birth_day": "1787-4-17 11:7:56+00:00"
+            "name": "Dr. Ariana Woodard",
+            "birth_day": "1928-7-14 3:25:16+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 14,
         "fields": {
-            "name": "Ashley Banks",
-            "birth_day": "1890-5-3 4:11:22+00:00"
+            "name": "Kevin Wiggins",
+            "birth_day": "1709-8-10 12:35:4+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 15,
         "fields": {
-            "name": "Cindy Jones",
-            "birth_day": "1931-7-16 1:40:26+00:00"
+            "name": "Stephanie Marsh",
+            "birth_day": "1717-3-13 10:34:10+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 16,
         "fields": {
-            "name": "Daniel Thomas",
-            "birth_day": "1798-11-13 4:5:44+00:00"
+            "name": "Susan Keller",
+            "birth_day": "1908-1-25 8:48:8+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 17,
         "fields": {
-            "name": "Timothy Barker",
-            "birth_day": "1914-5-25 3:19:34+00:00"
+            "name": "James Holt",
+            "birth_day": "1713-5-1 11:44:50+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 18,
         "fields": {
-            "name": "Nicole Chen",
-            "birth_day": "1831-8-17 7:44:55+00:00"
+            "name": "Brittany Brown",
+            "birth_day": "1859-8-1 10:29:22+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 19,
         "fields": {
-            "name": "Eric Nelson",
-            "birth_day": "1920-6-19 5:14:48+00:00"
+            "name": "Cassidy Martinez",
+            "birth_day": "1820-11-9 11:15:0+00:00"
         }
     },
     {
         "model": "books_authors.Author",
         "pk": 20,
         "fields": {
-            "name": "Shelley Barnes",
-            "birth_day": "1816-6-20 1:41:35+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 21,
-        "fields": {
-            "name": "Scott Cook",
-            "birth_day": "1825-1-11 8:49:44+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 22,
-        "fields": {
-            "name": "Sandra Thomas",
-            "birth_day": "1961-5-20 9:27:8+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 23,
-        "fields": {
-            "name": "Maxwell Berry",
-            "birth_day": "1746-12-17 6:22:46+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 24,
-        "fields": {
-            "name": "John Woods",
-            "birth_day": "1838-2-26 8:46:18+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 25,
-        "fields": {
-            "name": "Karen Garner",
-            "birth_day": "1701-10-8 3:50:15+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 26,
-        "fields": {
-            "name": "Kristen Thompson",
-            "birth_day": "1701-9-22 6:25:53+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 27,
-        "fields": {
-            "name": "Henry Anderson",
-            "birth_day": "1739-10-2 8:2:47+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 28,
-        "fields": {
-            "name": "Thomas King",
-            "birth_day": "1833-3-11 8:18:33+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 29,
-        "fields": {
-            "name": "April Jones",
-            "birth_day": "1851-2-17 10:6:48+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 30,
-        "fields": {
-            "name": "Brian George",
-            "birth_day": "1775-7-18 10:0:11+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 31,
-        "fields": {
-            "name": "Melissa Caldwell",
-            "birth_day": "1988-7-3 5:29:52+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 32,
-        "fields": {
-            "name": "Timothy Mack",
-            "birth_day": "1844-10-20 1:30:21+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 33,
-        "fields": {
-            "name": "Johnathan Johnson",
-            "birth_day": "1770-6-6 2:2:4+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 34,
-        "fields": {
-            "name": "Mr. Dakota Rogers",
-            "birth_day": "1750-4-1 6:51:11+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 35,
-        "fields": {
-            "name": "Debbie Rojas",
-            "birth_day": "1769-10-10 10:58:55+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 36,
-        "fields": {
-            "name": "Robert Ortiz",
-            "birth_day": "1884-8-16 3:52:6+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 37,
-        "fields": {
-            "name": "Frank Mullins",
-            "birth_day": "1851-12-13 4:34:9+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 38,
-        "fields": {
-            "name": "Jeffrey Ortiz",
-            "birth_day": "1779-12-22 12:33:41+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 39,
-        "fields": {
-            "name": "David Jensen",
-            "birth_day": "1790-11-28 8:42:44+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 40,
-        "fields": {
-            "name": "Matthew Madden",
-            "birth_day": "1917-7-15 4:29:30+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 41,
-        "fields": {
-            "name": "Chad Gomez",
-            "birth_day": "1741-7-9 9:16:22+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 42,
-        "fields": {
-            "name": "Wanda Williams",
-            "birth_day": "1760-3-6 5:8:54+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 43,
-        "fields": {
-            "name": "Ricky Jones",
-            "birth_day": "1999-11-27 12:8:54+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 44,
-        "fields": {
-            "name": "Ashley Oneill",
-            "birth_day": "1972-8-25 3:21:25+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 45,
-        "fields": {
-            "name": "Sarah Fisher",
-            "birth_day": "1784-9-14 5:38:58+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 46,
-        "fields": {
-            "name": "Christopher Gomez",
-            "birth_day": "1779-8-11 4:24:26+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 47,
-        "fields": {
-            "name": "Christina Morgan",
-            "birth_day": "1720-2-12 2:48:15+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 48,
-        "fields": {
-            "name": "Jordan Wright",
-            "birth_day": "1780-9-21 10:29:9+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 49,
-        "fields": {
-            "name": "Elizabeth Campbell",
-            "birth_day": "1978-9-3 8:38:57+00:00"
-        }
-    },
-    {
-        "model": "books_authors.Author",
-        "pk": 50,
-        "fields": {
-            "name": "Thomas Jordan",
-            "birth_day": "1962-9-11 11:31:11+00:00"
+            "name": "Joseph Smith",
+            "birth_day": "1807-2-14 1:56:42+00:00"
         }
     }
 ]

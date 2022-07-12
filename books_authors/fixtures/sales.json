@@ -3,240 +3,120 @@
         "model": "books_authors.Sales",
         "pk": 1,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 49.26
+            "date": "2017-7-16 2:46:28+00:00",
+            "total_sold_usd": 306.37
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 2,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 168.98
+            "date": "2013-11-22 11:46:58+00:00",
+            "total_sold_usd": 314.58
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 3,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 282.02
+            "date": "2013-9-18 11:44:49+00:00",
+            "total_sold_usd": 342.79
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 4,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 118.95
+            "date": "2015-4-3 9:38:46+00:00",
+            "total_sold_usd": 178.28
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 5,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 283.75
+            "date": "2012-10-16 1:1:57+00:00",
+            "total_sold_usd": 272.55
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 6,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 294.21
+            "date": "2013-5-13 9:1:30+00:00",
+            "total_sold_usd": 319.3
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 7,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 164.76
+            "date": "2022-1-22 6:36:54+00:00",
+            "total_sold_usd": 313.29
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 8,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 462.36
+            "date": "2018-5-26 4:58:35+00:00",
+            "total_sold_usd": 182.93
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 9,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 245.81
+            "date": "2022-8-16 3:46:48+00:00",
+            "total_sold_usd": 168.04
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 10,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 308.13
+            "date": "2016-12-6 7:51:33+00:00",
+            "total_sold_usd": 174.44
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 11,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 164.07
+            "date": "2022-5-5 12:12:17+00:00",
+            "total_sold_usd": 422.03
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 12,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 217.08
+            "date": "2016-1-25 10:13:50+00:00",
+            "total_sold_usd": 342.39
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 13,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 111.71
+            "date": "2018-6-28 6:43:49+00:00",
+            "total_sold_usd": 360.48
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 14,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 104.83
+            "date": "2015-9-19 4:44:36+00:00",
+            "total_sold_usd": 235.18
         }
     },
     {
         "model": "books_authors.Sales",
         "pk": 15,
         "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 249.75
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 16,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 84.86
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 17,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 87.02
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 18,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 408.7
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 19,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 184.33
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 20,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 297.46
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 21,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 300.26
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 22,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 297.05
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 23,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 210.69
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 24,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 236.41
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 25,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 383.34
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 26,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 96.2
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 27,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 222.47
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 28,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 251.98
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 29,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 276.66
-        }
-    },
-    {
-        "model": "books_authors.Sales",
-        "pk": 30,
-        "fields": {
-            "date": "2019-5-25 2:18:1+00:00",
-            "total_sold_usd": 94.73
+            "date": "2019-9-13 12:54:57+00:00",
+            "total_sold_usd": 329.97
         }
     }
 ]

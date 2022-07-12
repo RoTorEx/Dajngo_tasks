@@ -3,7 +3,7 @@ import random as r
 
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.db.models import Count, Q
+from django.db.models import Count, Q, Avg
 from faker import Faker
 
 from books_authors.models import Author, Publisher, Book, Sales
@@ -47,6 +47,11 @@ def index(request):
     print()
 
     # Task_7: Одним запросом получить для книг имена паблишеров, не подгружая остальные поля из связанной модели
+    publishers_list = Book.objects.select_related("publisher")
+
+    for i in publishers_list:
+        print(f"\u001b[33m{i.publisher.name}\u001b[0m", sep=" : ", end="")
+    print("\n\n")
 
     # !Upgrade
     # Task_8: В один запрос для автора выбрать список всех книг исключая их цену
@@ -107,6 +112,24 @@ def index(request):
     # Task_14: Получить год рождения самого древнего автора
     year = Author.objects.order_by("birth_day").values_list("birth_day__year", flat=True).first()
     print(f"The most oldest author was born at\u001b[33m {year}\u001b[0m year.\n")
-    Author.objects.order_by("birth_day")
+
+    # Task_15: Найти самое богатое издания по общей стоимости книг
+    expensive_pub = Book.objects.annotate(pub_price=Avg("price")).order_by("-pub_price").values_list("pub_price", "publisher__name").first()
+    print(f"\u001b[36m {expensive_pub[1]}\u001b[0m have\u001b[35m {expensive_pub[0]}\u001b[0m$.", end="\n\n")
+
+    # Task_16: Показать список книг цена которых больше цены продаж за 20 февраля 2002 года
+    sale_at_feb = Sales.objects.filter(date=datetime.date(2002, 2, 20))
+    red_date = datetime.date(2002, 2, 20)
+    red_price = float(f"{r.triangular(777, 777.99):.2f}")
+
+    if not sale_at_feb:
+        Sales.objects.create(
+            date=red_date,
+            total_sold_usd=red_price
+        )
+
+    books_list = list(Book.objects.filter(price__gt=red_price).values("name", "price").order_by("price"))
+
+    print(f"List of books:\u001b[31m  {books_list}\u001b[0m ")
 
     return HttpResponse("Hello!")
