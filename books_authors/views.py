@@ -119,12 +119,20 @@ def index(request):
     print(f"\u001b[36m {expensive_pub[0]}\u001b[0m have\u001b[35m {expensive_pub[1]}\u001b[0m$.", end="\n\n")
 
     # Task_16: Показать список книг цена которых больше цены продаж за 20 февраля 2002 года
+    # books_list = Book.objects.filter(
+    #     price__gt=Sales.objects.filter(Q(date=datetime.date(2002, 2, 20)) |
+    #                                    Q(date__gt=datetime.date(2002, 2, 20))).order_by("date").first().total_sold_usd
+    # ).values_list("name", flat=True)
 
-    books_list = Book.objects.filter(
-        price__gt=Sales.objects.filter(Q(date=datetime.date(2002, 2, 20)) |
-                                       Q(date__gt=datetime.date(2002, 2, 20))).order_by("date").first().total_sold_usd
-    ).values_list("name", flat=True)
+    cost = Sales.objects.filter(Q(date=datetime.date(2002, 2, 20)) |
+                                Q(date__gt=datetime.date(2002, 2, 20))).order_by("date")
 
-    print(f"List of books:\u001b[31m {list(books_list)}\u001b[0m ")
+    books_list_2 = Book.objects.all().filter(
+        price__gt=Subquery(
+            cost.values("total_sold_usd")
+        )
+    ).order_by("price").values_list("name", flat=True)
+
+    print(f"List of books:\u001b[31m {list(books_list_2)}\u001b[0m ")
 
     return HttpResponse("Hello!")
