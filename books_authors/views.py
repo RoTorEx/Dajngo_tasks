@@ -45,7 +45,7 @@ def index(request):
     print()
 
     # Task_7: Одним запросом получить для книг имена паблишеров, не подгружая остальные поля из связанной модели
-    publishers_list = Book.objects.prefetch_related(Prefetch("publisher")).values_list("publisher__name", flat=True)
+    publishers_list = Book.objects.values_list("publisher__name", flat=True)
 
     for pub in publishers_list:
         print(f"\u001b[33m{pub}\u001b[0m", sep=" : ", end="")
@@ -79,10 +79,12 @@ def index(request):
 
     book = Book.objects.get_or_create(
         name="Эйафьядлаёкюдель",
-        publisher=r.choice(Publisher.objects.all()),
-        # authors=1,
-        publish_date=date + " " + time,
-        price=float(f"{r.triangular(1488, 1488.99):.2f}")
+        defaults=dict(
+            name="Эйафьядлаёкюдель",
+            publisher=r.choice(Publisher.objects.all()),
+            publish_date=date + " " + time,
+            price=float(f"{r.triangular(1488, 1488.99):.2f}"),
+        )
     )
     book[0].authors.set([r.randint(1, 20) for loop in range(5)])
 
