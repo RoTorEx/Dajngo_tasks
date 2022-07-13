@@ -8,4 +8,3 @@ python manage.py loaddata author
 python manage.py loaddata books
 python manage.py loaddata sales
 
-python manage.py runserver

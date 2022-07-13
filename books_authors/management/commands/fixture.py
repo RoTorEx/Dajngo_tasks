@@ -63,7 +63,7 @@ class Command(BaseCommand):
                     "pk": i + 1,
                     "fields": {
                         "name": " ".join([Faker().word() for i in range(r.randint(1, 5))]).capitalize(),
-                        "authors": [r.randint(1, 20)],
+                        "authors": [r.randint(1, 20) for i in range(r.randint(1, 3))],
                         "publisher": r.randint(1, 8),
                         "publish_date": date + " " + time,
                         "price": float(f"{r.triangular(1234):.2f}")
